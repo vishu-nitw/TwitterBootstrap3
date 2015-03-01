@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Twitter bootstrap 3</title>
+    <link type="text/css" rel="stylesheet" href="styles/reset.css"/>
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.css"/>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+  <!--Fix navigation bar with dropdown start-->
+  <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a href="#" class="navbar-brand">Creativity Tuts</a>
+          </div>
+
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li><a href="index.html">Home</a> </li>
+                  <!-- <li><a href="about.html">About</a> </li> -->
+                  <li><a href="views/features.html">Features</a> </li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorials<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="#">Bootstrap </a></li>
+                          <li><a href="#">AngularJS </a></li>
+                          <li><a href="#">Backbone</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="views/contact.html">Contact</a> </li>
+                  <li> <a data-toggle="modal" href="#mySignup">Login</a></li>
+              </ul>
+
+          </div>
+          <!--<div>-->
+              <!--<p>-->
+                  <!--<a data-toggle="modal" href="#mySignup">Login</a>-->
+              <!--</p>-->
+          <!--</div>-->
+      </div>
+  </div>
+  <!--Fix navigation bar with dropdown end-->
+
+
+
+               <!--carousel start-->
+               <div class="container">
+                 
+              
+  <div  id="myCarousel" class="carousel slide">
+      <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+
+          <div class="item active">
+              <img src="images/w1.jpg"/>
+              <div class="container">
+                  <div class="carousel-caption">
+                      <h1>My Head text</h1>
+                      <p>this is paragaraph this is paragaraph this is paragaraph this is paragaraph this is paragaraph this is paragaraph </p>
+                      <p>this is paragaraph this is paragaraph this is paragaraph this is paragaraph this is paragaraph this is paragaraph </p>
+
+                          <!--<a class="btn btn-large btn-primary"> SignUp</a>-->
+                          <!--<a data-toggle="modal" href="#mySignup">Login</a>-->
+
+
+                      <br/>
+                  </div>
+              </div>
+          </div>
+
+          <div class="item">
+              <img src="images/w2.jpg"/>
+              <div class="container">
+                  <div class="carousel-caption">
+                      <h1>My Head text</h1>
+                      <p>this is paragaraph this is paragaraph this is paragaraph this is paragaraph this is paragaraph this is paragaraph </p>
+                      <p>this is paragaraph this is paragaraph this is paragaraph this is paragaraph this is paragaraph this is paragaraph </p>
+                      <!--<p><a class="btn btn-large btn-primary"> SignUp</a> </p>-->
+                      <br/>
+                  </div>
+              </div>
+          </div>
+
+          <div class="item">
+              <img src="images/w3.jpg"/>
+              <div class="container">
+                  <div class="carousel-caption">
+                      <h1>My Head text</h1>
+                      <p>this is paragaraph this is paragaraph this is paragaraph this is paragaraph this is paragaraph this is paragaraph </p>
+                      <p>this is paragaraph this is paragaraph this is paragaraph this is paragaraph this is paragaraph this is paragaraph </p>
+                      <!--<p><a class="btn btn-large btn-primary"> SignUp</a> </p>-->
+                      <br/>
+                  </div>
+              </div>
+          </div>
+
+
+      </div>
+
+      <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">-->
+          <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+      <!--</a>-->
+
+      <!--<a class="right carousel-control" href="#myCarousel" data-slide="next">-->
+          <!--<span class="glyphicon glyphicon-chevron-right"></span>-->
+      <!--</a>-->
+
+
+  </div>
+   </div>
+             <!--carousel end-->
+
+    <!--start grid-->
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <h1>HTML5-New Features</h1>
+              <p>
+                  Some of the most interesting new features in HTML5 are:
+                  The 'canvas' element for 2D drawing
+                  The 'video' and 'audio' elements for media playback
+                  Support for local storage
+                 </p>
+          </div>
+
+          <div class="col-md-4">
+              <h1>AJAX</h1>
+              <p>AJAX = Asynchronous JavaScript and XML.
+                  AJAX is not a new programming language, but a new way to use existing standards.
+                  AJAX is the art of exchanging data with a server, and updating parts of a web page - without reloading the whole page.</p>
+          </div>
+
+          <div class="col-md-4">
+              <h1>Why-AngularJS ?</h1>
+              <p>HTML is great for declaring static documents, but it falters when we try to use it for
+                  declaring dynamic views in web-applications. AngularJS lets you extend HTML
+                  vocabulary for your application. The resulting environment is extraordinarily
+                  expressive, readable, and quick to develop</p>
+          </div>
+
+          <div class="col-md-6">
+              <h1>Knockout JS</h1>
+              <p>Knockout is a JavaScript library that helps you to create rich, responsive display and
+                  editor user interfaces with a clean underlying data model. Any time you have sections of UI that update dynamically
+                  (e.g., changing depending on the user’s actions or when an external data source changes),
+                  KO can help you implement it more simply and maintainably.</p>
+          </div>
+
+          <div class="col-md-6">
+              <h1>Javascript</h1>
+              <p>JavaScript (JS) is a dynamic computer programming language. It is most commonly used as part of web browsers,
+                  whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, </p>
+
+
+          </div>
+
+      </div>
+
+
+
+  </div>
+     <!--end grid-->
+
+        <!--font awesome start-->
+
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="well">
+                  <i class="icon-linkedin"></i>
+                  <i class="icon-apple"></i>
+                  <i class="icon-twitter"></i>
+              </div>
+
+          </div>
+      </div>
+  </div>
+  <!--font awesome end-->
+
+     <!--footer and modal start-->
+
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <hr/>
+              <p>Copyright &copy;vishu.
+                 <a data-toggle="modal" href="#myModal">Terms and Conditions</a>
+              </p>
+
+              <!--modal starts-->
+
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h2>Terms and Conditions...</h2>
+                          </div>
+                          <div class="modal-body">
+                              <p>This is modal body...</p>
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                          </div>
+                      </div>
+
+                  </div>
+
+                  </div>
+
+                  <div class="modal fade" id="mySignup" tabindex="-1" role="dialog" aria-hidden="true">
+
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h2>Login</h2>
+                              </div>
+                              <div class="modal-body">
+                                  <form class="form-horizontal form-group">
+                                      <div class="form-group">
+                                          <label for="email" class="col-md-4 control-label">Email :</label>
+                                          <div class="col-md-4">
+                                              <input type="email" class="form-control"placeholder="Enter Email " />
+                                          </div>
+                                      </div>
+
+                                      <div class="form-group">
+                                          <label for="password" class="col-md-4 control-label">Password :</label>
+                                          <div class="col-md-4">
+                                              <input type="password" class="form-control"placeholder="Enter Password " />
+                                          </div>
+                                      </div>
+
+                                      <div class="form-group">
+                                          <div class="col-md-4 col-md-offset-2" style="margin-left: 200px;width: 37%">
+                                              <label type="submit" class="btn btn-primary">Login</label><br/>
+                                              <p style="text-decoration: none"><a href="#">Forgot Password</a></p>
+                                              <!--<button type="button" class="btn btn-danger">new account</button>-->
+
+                                          </div>
+                                      </div>
+                                  </form>
+
+
+
+                                  <!--<p>This is modal body...</p>-->
+                              </div>
+                              <div class="modal-footer">
+                                  <div class="col-md-4 col-md-offset-2">
+
+                                      <p><a class="btn btn-large btn-danger" href="contact.html" style="margin-left: 60%"> Don't have account?</a> </p>
+                                      <!--<button type="button" class="btn btn-primary">Sign Up</button>-->
+
+                                      <!--<button type="button" class="btn btn-danger">Dont have account</button>-->
+
+                                  </div>
+
+                                  <!--<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>-->
+                              </div>
+                          </div>
+
+                      </div>
+
+
+
+
+                  </div>
+
+
+
+              </div>
+          </div>
+      </div>
+
+
+  <!--<button class="btn btn-success">test</button>-->
+
+
+<!--<script  type="text/javascript" src="js/bootstrap.js"></script>-->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
+
