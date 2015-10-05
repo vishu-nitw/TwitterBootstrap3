@@ -1,0 +1,34 @@
+.align-centre{
+	text-align: center;
+    text-align: -webkit-center;
+}
+.mobile-banking{
+	font-size: 28px;
+    margin: 0px;
+    padding: 0px;
+}
+.your-bank{
+
+}
+#myCarouselLogo{
+	padding-left: 6%;
+    padding-top: 15px;
+    vertical-align: middle;
+}
+.transition {
+    -webkit-transform: scale(1.6); 
+    -moz-transform: scale(1.6);
+    -o-transform: scale(1.6);
+    transform: scale(1.6);
+}
+.content-one, .content-two, .content-three {
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+}
+.content-one, .content-two, .content-three {
+    width:80px;
+    margin:25px;
+    border-radius: 50%;
+}
